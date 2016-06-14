@@ -1,3 +1,6 @@
+#Windows file
+Thumbs.db
+
 # Object files
 *.o
 *.ko
@@ -31,3 +34,11 @@
 # Debug files
 *.dSYM/
 *.su
+
+#8051IDE
+*.lst
+*.lnk
+
+#Proteus
+*.workspace
+*.pdsbak
