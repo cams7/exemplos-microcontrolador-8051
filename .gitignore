@@ -42,5 +42,9 @@ Thumbs.db
 #Proteus
 *.workspace
 *.pdsbak
+
+#Arquivos do WR Kits
+*.rar
+8051_WR_files_*/
 *.wsp
 *.dat
