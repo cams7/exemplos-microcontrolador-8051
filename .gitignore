@@ -38,6 +38,8 @@ Thumbs.db
 #8051IDE
 *.lst
 *.lnk
+*.wsp
+*.dat
 
 #Proteus
 *.workspace
@@ -46,5 +48,4 @@ Thumbs.db
 #Arquivos do WR Kits
 *.rar
 8051_WR_files_*/
-*.wsp
-*.dat
+
