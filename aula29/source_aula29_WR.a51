@@ -66,6 +66,12 @@ main:
                                                 ;Timer 1        Timer 0
                                                 ;Gate C/T M1 M0 Gate C/T M1 M0
                                                 ;0    0   0  0  0    0   0  1
+												
+												;Modo M1 M0 Definição
+												;0 -  0  0  Contador de 32 bits
+												;1 -  0  1  Contador de 16 bits  (x)
+												;2 -  1  0  Contador de 8 bits com auto-reload
+												;3 -  1  1  Time misto
         
         acall          reinicia_contagem        ;Chama a subrotina (reinicia_contagem) 
  
