@@ -7,7 +7,7 @@
 ;
 ; - Timer no modo 2 (contador de 8 bits com auto-reload);
 ; - Timer0 com alta prioridade de interrupção;
-; - Configurar o estouro de T0 para ocorrer a cada 60ms
+; - Configurar o estouro de T0 para ocorrer a cada 1s
 ;
 ; www.wrkits.com.br | facebook.com/wrkits | youtube.com/user/canalwrkits
 ;
@@ -66,8 +66,8 @@ main:
 
                                                 ;Modo M1 M0 Definição
                                                 ;0 -  0  0  Contador de 32 bits
-                                                ;1 -  0  1  Contador de 16 bits  (x)
-                                                ;2 -  1  0  Contador de 8 bits com auto-reload
+                                                ;1 -  0  1  Contador de 16 bits
+                                                ;2 -  1  0  Contador de 8 bits com auto-reload	(x)
                                                 ;3 -  1  1  Time misto
                                                 
         mov             TH0,#6d                 ;Inicializa TH0 em 6d (256 - 6 = 250)
