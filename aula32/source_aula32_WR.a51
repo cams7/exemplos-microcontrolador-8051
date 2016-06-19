@@ -26,11 +26,11 @@
 
 ; --- Vetor de Interrupção do TIMER1 (Interna - Periférico) ---
         org             001Bh                   ;Endereço para o qual aponta a interrupção do Timer1
-        mov             TH1,#0ECh               ;Recarrega o byte mais significativo do Timer1
-        mov             TL1,#78h                ;Recarrega o byte menos significativo do Timer1
+        mov             TH1,#0Bh                ;Recarrega o byte mais significativo do Timer1
+        mov             TL1,#0DCh               ;Recarrega o byte menos significativo do Timer1
 
         djnz            R0,sai_int              ;R0 igual a zero? Não, desvia para a label sai_int
-        mov             R0,#64h                 ;Sim, recarrega R0
+        mov             R0,#08h                 ;Sim, recarrega R0
 
         rl              a                       ;Rotaciona para esquerda os bits do acc
         mov             P0,a                    ;Carrega o valor do acc em PORT0
@@ -39,7 +39,7 @@ sai_int:
         reti                                    ;Retornar da interrupção
 
 inicio:
-        mov             R0,#64h                 ;Carrega o valor D'100' do R0
+        mov             R0,#08h                 ;Carrega o valor D'8' do R0
 
         mov             IE,#88h                 ;Habilita a interrupção do Timer1
                                                 ;Registrador IE (Interrupt Enable) - Habilita Interrupção
@@ -62,7 +62,7 @@ inicio:
                                                 ;PT1 (Priority Timer1) – prioridade do Timer1
                                                 ;PX1 (Priority External1) – prioridade INT1
                                                 ;PT0 (Priority Timer0) – prioridade Timer0
-                                                ;PT0 (Priority External0) – prioridade INT0
+                                                ;PX0 (Priority External0) – prioridade INT0
 
         mov             TCON,#40h               ;Habilita a contagem do Timer1
                                                 ;Registrador TCON (Timer Control) - Configura os tipos de interrupção e contém as flags de indicação
@@ -96,11 +96,11 @@ inicio:
                                                 ;2 -  1  0  Contador de 8 bits com auto-reload
                                                 ;3 -  1  1  Time misto
 
-        mov             TH1,#0ECh               ;Carrega o byte mais significativo do Timer1
-        mov             TL1,#78h                ;Carrega o byte menos significativo do Timer1
-                                                ;2^16(65536) - EC78(60536) = 5000
-                                                ;5e3 * 1e-6 = 0,005s = 5ms
-                                                ;0,005 * 100(R0) = 0,5s = 500ms
+        mov             TH1,#0Bh                ;Carrega o byte mais significativo do Timer1
+        mov             TL1,#0DCh               ;Carrega o byte menos significativo do Timer1                                                
+                                                ;0,5/(2^16*1e-6) = 7,629... => R0 = 8
+                                                ;0,5/(x*1e-6)=8 => x=0,5/(8*1e-6) => x=62500
+                                                ;2^16-62500 = 3036 = 0BDC => TH1=0B, TL1=DC                                         
                                                 
                                                 ;T0 (16 Bits)   T1 (16 Bits)
                                                 ;TH0 (8 bits)   TH1 (8 bits)    - Byte Alto
