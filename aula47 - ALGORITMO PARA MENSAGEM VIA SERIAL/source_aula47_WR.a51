@@ -82,7 +82,7 @@ main:
         mov     A,#','                          ;acc recebe caractere ","
         acall   transmite       
 
-        mov     A,#20h                         ;acc recebe caractere "espaço"
+        mov     A,#20h                          ;acc recebe caractere "espaço"
         acall   transmite       
 
         mov     A,#'W'                          ;acc recebe caractere "W"
