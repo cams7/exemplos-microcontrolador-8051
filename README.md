@@ -1,4 +1,4 @@
-Exemplos de aplicações para o [microcontrolador 8051] (http://www.atmel.com/pt/br/products/microcontrollers/8051architecture/default.aspx)
+Exemplos de aplicações para o [microcontrolador 8051] (https://pt.wikipedia.org/wiki/Intel_8051)
 ========================
 * Autor: César Magalhães
 * Tecnologias: Proteus 8.4, 8051IDE
