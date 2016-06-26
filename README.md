@@ -1,4 +1,4 @@
-Exemplos de aplicações para o microcontrolador 8051
+Exemplos de aplicações para o **microcontrolador 8051**
 ========================
 * Autor: César Magalhães
 * Tecnologias: Proteus 8.4, 8051IDE
@@ -21,7 +21,7 @@ Para testa os exemplos
 * Instale o Proteus 8.4
 * Baixe e rode o executavel do 8051IDE
 
-Exemplos retirados do Youtube através do canal WR Kits - [Curso de Assembly para 8051] (https://www.youtube.com/playlist?list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k)
+Exemplos em **Assembly** retirados do Youtube através do canal **WR Kits** - [Curso de Assembly para 8051] (https://www.youtube.com/playlist?list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k)
 -------------------
 01. [INTRODUÇÃO, IDE8051, NOVO PROJETO](https://github.com/cams7/exemplos-microcontrolador-8051/tree/master/Assembly/Youtube%20-%20WR%20Kits/Aula01%20-%20INTRODU%C3%87%C3%83O%2C%20IDE8051%2C%20NOVO%20PROJETO) | [Assembly para 8051 #001] (https://www.youtube.com/watch?v=AZan-9s49tg&list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k&index=1)
 02. [AT89S51, BARRAMENTOS, PORTS, DATASHEET](https://github.com/cams7/exemplos-microcontrolador-8051/tree/master/Assembly/Youtube%20-%20WR%20Kits/Aula02%20-%20AT89S51%2C%20BARRAMENTOS%2C%20PORTS%2C%20DATASHEET) | [Assembly para 8051 #002] (https://www.youtube.com/watch?v=km5kDUTxQb0&list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k&index=2)
