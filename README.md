@@ -81,3 +81,5 @@ Exemplos em [Assembly] (https://pt.wikipedia.org/wiki/Assembly) retirados do You
 Componentes eletrônicos
 -------------------
 01. [Microcontrolador AT89S51] (http://www.baudaeletronica.com.br/microcontrolador-at89s51.html)
+02. [PARADOXUS 8051] (https://wrkits.com.br/catalog/show/139)
+03. [PARADOXUS 8051 com gravador USBasp] (https://wrkits.com.br/catalog/show/140)
