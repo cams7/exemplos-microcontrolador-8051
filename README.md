@@ -77,3 +77,7 @@ Exemplos em [Assembly] (https://pt.wikipedia.org/wiki/Assembly) retirados do You
 52. [MENSAGEM EM LCD 16X2](https://github.com/cams7/exemplos-microcontrolador-8051/tree/master/Assembly/Youtube%20-%20WR%20Kits/Aula52%20-%20MENSAGEM%20EM%20LCD%2016X2) | [Assembly para 8051 #052] (https://www.youtube.com/watch?v=_-P40HXUCNs&list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k&index=52)
 53. [VÁRIAS MENSAGENS EM LCD](https://github.com/cams7/exemplos-microcontrolador-8051/tree/master/Assembly/Youtube%20-%20WR%20Kits/Aula53%20-%20V%C3%81RIAS%20MENSAGENS%20EM%20LCD) | [Assembly para 8051 #053] (https://www.youtube.com/watch?v=MxQ1CClljkI&list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k&index=53)
 54. CONTROLANDO LCD COM A PARADOXUS 8051 | [Assembly para 8051 #054] (https://www.youtube.com/watch?v=xfj-7VnyPmk&list=PLZ8dBTV2_5HS6FDb_A7G9fRtjlXM98o6k&index=54)
+
+Componentes eletrônicos
+-------------------
+01. [Microcontrolador AT89S51] (http://www.baudaeletronica.com.br/microcontrolador-at89s51.html)
